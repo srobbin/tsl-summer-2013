@@ -1,0 +1,57 @@
+/* Layout */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Header */
+header {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
+#home {
+  float: left;
+}
+
+#nav {
+  float: right;
+}
+
+  #nav a {
+    margin-left: 20px;
+  }
+
+/* Main */
+#articles {
+  float: left;
+  width: 600px;
+  margin-right: 40px;
+}
+
+#sidebar {
+  float: left;
+  width: 320px;
+}
+
+.section {
+  border-bottom: 1px dotted gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid black;
+}
+
+/* Back to top */
+.back {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
