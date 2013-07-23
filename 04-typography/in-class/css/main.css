@@ -1,0 +1,56 @@
+/* General */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+/* Layout */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+
+.col-small {
+  width: 220px;
+}
+
+header, footer {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  clear: both;
+}

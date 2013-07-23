@@ -1,0 +1,33 @@
+/* Layout */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Columns */
+.col {
+  float: left;
+}
+
+  .col-large {
+    width: 460px;
+    margin: 0 10px;
+  }
+
+  .col-small {
+    width: 220px;
+    margin: 0 10px;
+  }
+
+/* Header */
+header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+  clear: both;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
