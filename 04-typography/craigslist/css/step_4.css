@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.clear {
+  clear: both;
+}
+
 /* Columns */
 .col {
   float: left;
