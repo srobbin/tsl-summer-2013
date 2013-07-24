@@ -1,0 +1,25 @@
+/* Main layout */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Columns */
+.col {
+  float: left;
+}
+  
+/* Section */
+section {
+  width: 560px;
+}
+
+/* Aside */
+aside {
+  width: 180px;
+}
+
+/* Footer */
+footer {
+  clear: both;
+}

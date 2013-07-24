@@ -1,0 +1,45 @@
+/* Main layout */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Columns */
+.col {
+  float: left;
+}
+  
+/* Section */
+section {
+  width: 560px;
+}
+
+  section .col {
+    width: 180px;
+  }
+
+  section .col-2 {
+    width: 90px;
+  }
+
+  section .col-3 {
+    width: 60px;
+  }
+
+  section .category {
+    margin-bottom: 20px;
+  }
+
+/* Aside */
+aside {
+  width: 180px;
+}
+
+/* Footer */
+footer {
+  clear: both;
+}
