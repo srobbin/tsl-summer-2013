@@ -51,16 +51,16 @@ section {
     padding: 10px 0;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    text-align: center;
   }
 
     section header h1 {
-      float: left;
+      display: inline;
     }
 
     section header nav {
-      float: left;
+      display: inline;
       margin-left: 10px;
-      margin-top: 5px;
     }
 
   section .col {
