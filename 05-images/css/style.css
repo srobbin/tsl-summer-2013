@@ -30,6 +30,7 @@ aside {
 body {
   font-family: Helvetica, Arial, sans-serif;
   background: url(../img/background.png);
+  background-attachment: fixed;
 }
 
 h2, h3 {
