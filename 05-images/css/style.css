@@ -58,6 +58,10 @@ nav {
   float: right;
 }
 
+  .logo {
+    float: left;
+  }
+
   nav a {
     padding: 0 5px;
     color: #999;
