@@ -86,7 +86,7 @@ aside a {
 }
 
 aside a:hover {
-  background-color: #ddd;
+  background-color: #fff;
   color: #000;
 }
 
@@ -101,5 +101,5 @@ aside a:hover {
 }
 
 .album:hover {
-  background-color: #ddd;
+  background-color: #fff;
 }
