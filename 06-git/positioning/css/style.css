@@ -1,0 +1,121 @@
+/* Layout */
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+  background: #fff;
+}
+
+aside {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  padding: 10px;
+  width: 200px;
+}
+
+.albums {
+  display: inline;
+  float: left;
+  margin: 70px 0 25px 250px;
+  width: 1000px;
+}
+
+/* Typography */
+
+body {
+  background: url(../img/background.png);
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2, h3 {
+  margin: 0 0 3px;
+}
+
+h3 {
+  color: #999;
+}
+
+h5 {
+  margin: 20px 0 5px;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+nav {
+  float: right;
+}
+
+  .logo {
+    float: left;
+  }
+
+  nav a {
+    padding: 0 5px;
+    color: #999;
+    line-height: 33px;
+  }
+
+  nav a:hover {
+    color: #000;
+  }
+
+/* Aside */
+
+aside h5 {
+  padding-left: 5px;
+}
+
+aside a {
+  display: block;
+  padding: 5px;
+  color: #2391CF;
+}
+
+aside a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Albums */
+
+.album {
+  position: relative;
+  display: inline;
+  float: left;
+  margin: 10px 0 25px;
+  padding: 25px;
+  width: 200px;
+}
+
+.album:hover {
+  background-color: #fff;
+}
+
+.album .info {
+  display: none;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  padding: 10px;
+  width: 180px;
+  background-color: rgba(0,0,0,.7);
+  color: white;
+}
+
+.album:hover .info {
+  display: block;
+}
