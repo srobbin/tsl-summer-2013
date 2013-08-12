@@ -1,0 +1,149 @@
+/* Web fonts */
+@font-face {
+  font-family: 'Jedi';
+  src: url('../font/Starjedi.ttf') format('truetype');
+}
+
+/* Base */
+body {
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  background: #eee;
+  background-image: -webkit-linear-gradient(#eee, #fff);
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 24px;
+  color: #999;
+}
+
+a {
+  color: #F33;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-shadow: 0 -1px 3px #333;
+  padding: 15px 30px;
+  background: #f33;
+  background-image: -webkit-linear-gradient(#f33, #f33 50%, #900);
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-image: -webkit-linear-gradient(#f00, #f00 50%, #600);
+  text-decoration: none;
+}
+
+/* Layout */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* 
+ * Clearfix 
+ * http://css-tricks.com/snippets/css/clear-fix/
+ */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* Header */
+header {
+  padding: 20px 0;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #ccc;
+  background: white;
+}
+
+  header .logo {
+    float: left;
+    font-family: "Jedi", "Droid", sans-serif;
+    font-size: 36px;
+  }
+
+  header nav {
+    float: right;
+    line-height: 36px
+  }
+
+  header nav a {
+    margin-left: 20px;
+  }
+
+/* Section */
+section {
+  margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+
+/* Buy */
+#buy {
+  border-bottom: 1px solid #ccc;
+}
+
+  .screenshot {
+    float: right;
+  }
+
+/* Testimonials */
+#testimonials {
+  padding: 40px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+  #testimonials img {
+    float: left;
+    margin-right: 80px;
+  }
+
+/* About */
+#about {
+  padding: 40px 0;
+}
+
+  #about .col {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+  }
