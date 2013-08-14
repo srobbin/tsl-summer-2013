@@ -1,6 +1,14 @@
+/* Web fonts */
+@font-face {
+  font-family: 'Jedi';
+  src: url('../font/Starjedi.ttf') format('truetype');
+}
+
 /* Base */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  background: #eee;
+  background-image: -webkit-linear-gradient(#eee, #fff);
 }
 
 h1, h2 {
@@ -17,6 +25,7 @@ h2 {
 }
 
 p {
+  line-height: 1.5em;
   margin-bottom: 20px;
 }
 
@@ -32,6 +41,23 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-shadow: 0 -1px 3px #333;
+  padding: 15px 30px;
+  background: #f33;
+  background-image: -webkit-linear-gradient(#f33, #f33 50%, #900);
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-image: -webkit-linear-gradient(#f00, #f00 50%, #600);
+  text-decoration: none;
 }
 
 /* Layout */
@@ -66,11 +92,13 @@ header {
 
   header .logo {
     float: left;
+    font-family: "Jedi", "Droid", sans-serif;
     font-size: 36px;
   }
 
   header nav {
     float: right;
+    line-height: 50px
   }
 
   header nav a {

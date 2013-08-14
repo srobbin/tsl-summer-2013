@@ -47,8 +47,20 @@ aside {
   width: 320px;
 }
 
-.clear {
-  clear: both;
+/* 
+ * Clearfix 
+ * http://css-tricks.com/snippets/css/clear-fix/
+ */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 /* Header */
@@ -75,7 +87,29 @@ footer {
 
 /* Article */
 article {
+  position: relative;
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px dotted #D1CBBA;
 }
+
+  article.last {
+    border-bottom: none;
+  }
+
+  article .date {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    top: 0;
+    left: -80px;
+    background: #5DBEA9;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  article .day {
+    font-size: 24px;
+  }
