@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Flavors);
+
+header {
+  background-color: #00bdff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00bdff), to(#00749e));
+  background-image: -webkit-linear-gradient(top, #00bdff, #00749e);
+  background-image: -moz-linear-gradient(top, #00bdff, #00749e);
+  background-image: -o-linear-gradient(top, #00bdff, #00749e);
+  background-image: -ms-linear-gradient(top, #00bdff, #00749e);
+  background-image: linear-gradient(top, #00bdff, #00749e);
+  padding: 30px 0;
+}
+
+.logo {
+  color: #fff;
+  font-family: 'Flavors', cursive;
+  font-size: 60px;
+  text-align: center;
+}

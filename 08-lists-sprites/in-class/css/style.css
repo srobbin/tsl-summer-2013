@@ -1,0 +1,69 @@
+dt {
+  font-weight: bold;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 5px 0;
+}
+
+dd {
+  margin-left: 0;
+  padding: 5px 0;
+  background: red;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid #fff;
+}
+
+ol {
+  margin-top: 50px;
+  margin-left: 50px;
+  list-style-position: outside;
+}
+
+li {
+  padding: 21px;
+  background-color: yellow;
+  margin-bottom: 20px;
+}
+
+li i {
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite.png);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.icon-facebook {
+  background-position: left -64px;
+}
+.icon-tumblr {
+  background-position: left top;
+}
+.icon-twitter {
+  background-position: left -16px;
+}
+.icon-youtube {
+  background-position: left -32px;
+}
+
+.logo {
+  width: 105px;
+  height: 100px;
+  background-image: url(../img/sprite.png);
+  background-position: left -80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
