@@ -1,0 +1,116 @@
+/* Base */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 36px;
+
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #c30;
+}
+
+
+/* Layout */
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.group {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  background-color: #F30;
+  background-image: linear-gradient(#F30, #F30 50%, #C30);
+  text-shadow: 0 -1px 3px #900;
+  border-radius: 5px;
+}
+
+  .btn:hover {
+    background-color: #C30;
+    background-image: linear-gradient(#F30, #F30 50%, #930);
+  }
+
+/* Header */
+header {
+  color: white;
+  background-color: #333;
+  background-image: linear-gradient(#333, #000);
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+  header h1 {
+    float: left;
+    margin-right: 20px;
+  }
+
+  header h2 {
+    line-height: 36px;
+    color: #666;
+  }
+
+
+/* Directory */
+.directory {
+  list-style: none;
+  text-align: right;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+  .directory h3 {
+    float: left;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .directory li {
+    font-size: 14px;
+    line-height: 18px;
+    width: 400px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .directory li:hover {
+    background: #efefef;
+  }
+
+  .directory li.visited {
+    background: #999;
+    color: white;
+  }
+
+    .directory li.visited h3 {
+      color: white;
+    }
+
+    .directory li.visited a {
+      color: #eee;
+    }
