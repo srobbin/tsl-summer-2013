@@ -1,0 +1,57 @@
+/* Base */
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Layout */
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Header */
+header {
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+/* Nav */
+nav {
+  
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-shadow: 0 -1px 0 #333;
+}
+
+  .btn:hover {
+    background-color: #51A351;
+  }
+
+.btn-buy {
+  background-color: #5BB75B;
+}
+
+.btn-like {
+  background-color: #49AFCD;
+}
+
+  .btn-like:hover {
+    background-color: #2F96B4;
+  }
