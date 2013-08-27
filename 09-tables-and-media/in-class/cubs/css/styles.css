@@ -1,0 +1,45 @@
+/* Base */
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+/* Layout */
+.container {
+  width: 960px;
+  margin: 100px auto;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  vertical-align: top;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: black;
+  color: white;
+}
+
+th.first {
+  width: 100px;
+}
+
+tr.break td {
+  background: #eee;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
