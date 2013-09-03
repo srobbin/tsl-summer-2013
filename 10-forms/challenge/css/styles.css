@@ -1,0 +1,32 @@
+/* Table */
+table {
+  margin: 100px auto;
+}
+
+th, td {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: red;
+  border-color: red;
+  color: white;
+  font-weight: normal;
+}
+
+  td.current {
+    background: #ffa;
+  }
+
+  td.empty {
+    background: #ddd;
+  }
+
+caption {
+  font-size: 24px;
+  margin-bottom: 10px;
+}

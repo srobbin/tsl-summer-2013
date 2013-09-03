@@ -1,0 +1,95 @@
+/* Base */
+body {
+  background: #2B3037;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Buttons */
+.btn {
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #363B44;
+  background-image: linear-gradient(#363B44, #222);
+  border: none;
+  border-radius: 5px;
+}
+
+  .btn:hover {
+    background-color: #555;
+    background-image: linear-gradient(#555, #222);
+  }
+
+/* Form */
+form {
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  color: white;
+  background-image: linear-gradient(#19A0D9,#107ABE);
+  border-radius: 8px;
+}
+
+  form ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  form p {
+    margin-bottom: 30px;
+  }
+
+header {
+  margin-bottom: 40px;
+}
+
+  header h1 {
+    margin: 0;
+    text-shadow: 0 1px 3px #2B3037;
+  }
+
+  header p {
+    margin: 0;
+    font-style: italic;
+  }
+
+label, legend {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-shadow: 0 -1px 3px #666;
+}
+
+  ul label { 
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: none;
+    text-shadow: none;
+  }
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.input-text,
+textarea,
+select {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+select {
+  width: 320px;
+}
+
+textarea {
+  height: 200px;
+}
